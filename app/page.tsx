@@ -51,13 +51,12 @@ export default function ZipFinder() {
     <div className="login-page">
       {/* Sage Logo */}
       <div className="logo-wrapper">
-        <img src="/images/sage_healthy_rcm_logo.png" alt="mySAGE Logo" className="mysage-logo" />
+        <img src="/images/Color.png" alt="mySAGE Logo" className="mysage-logo" />
       </div>
 
       {/* ZIP Finder Box */}
-      <div className="login-box" style={{ backgroundColor: "#8bc53d" }}>
-        {/* <h2 style={{ color: "white", fontWeight: "700", marginBottom: "1rem" }}>ZIP Finder Tool</h2> */}
-        <img src="/images/dbhub5.png" alt="DBHub" className="login-logo-img" />
+      <div className="login-box" style={{ backgroundColor: "#024d6c" }}>
+        <img src="/images/connecthub.png" alt="connecthub" className="login-logo-img" />
         <div className="space-y-4" style={{ width: "100%" }}>
           <label htmlFor="zip-input" style={{ color: "white", fontWeight: 500 }}>Enter ZIP Code</label>
           <Input
@@ -76,7 +75,7 @@ export default function ZipFinder() {
             style={{
               width: "100%",
               backgroundColor: "white",
-              color: "#8bc53d",
+              color: "#024d6c",
               fontWeight: "600",
               borderRadius: "5px",
               marginTop: "0.5rem",
